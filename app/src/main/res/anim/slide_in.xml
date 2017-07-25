@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:interpolator="@android:anim/anticipate_overshoot_interpolator"
+    android:fillAfter="true"
+    android:repeatCount="0" >
+
+    <translate
+        android:duration="150"
+        android:fromXDelta="-90%"
+        android:toXDelta="0%"/>
+
+    <alpha
+        android:duration="150"
+        android:fromAlpha="0.0"
+        android:toAlpha="1.0" />
+
+</set>

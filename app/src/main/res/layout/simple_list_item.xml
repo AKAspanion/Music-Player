@@ -1,0 +1,17 @@
+
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:layout_height="48dp"
+    android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:ellipsize="marquee"
+    android:marqueeRepeatLimit="marquee_forever"
+    android:textColor="@color/colorPrimaryDark"
+    android:maxLines="2"
+    android:focusable="false"
+    android:focusableInTouchMode="false" />
